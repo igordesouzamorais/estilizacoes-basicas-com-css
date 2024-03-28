@@ -1,0 +1,12 @@
+@import url('./global.css');
+
+.exemplo {
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    border: solid 5px orange;
+}
+
+.exemplo img {
+    opacity: .8; /*0 - 1*/
+}

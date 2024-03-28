@@ -1,0 +1,24 @@
+@import url('./global.css');
+
+.exemplo {
+    width: 200px;
+    background-color: chartreuse;
+    color: black;
+}
+
+p {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#exemplo-01 {
+    text-overflow: clip;
+}
+
+#exemplo-02 {
+    text-overflow: ellipsis;
+}
+
+#exemplo-03 {
+    text-overflow: 'Ver mais'; /*só esta funcionando no firefox*/
+}

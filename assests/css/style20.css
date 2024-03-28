@@ -1,0 +1,23 @@
+@import url('./global.css');
+
+.exemplo {
+    width: 120px;
+    background-color: blueviolet;
+}
+
+.exemplo2 {
+    width: 120px;
+    background-color: aquamarine;
+}
+
+#break-word {
+    word-wrap: break-word;
+}
+
+#break-all {
+    word-break: break-all;
+}
+
+#keep-all {
+    word-break: keep-all;
+}

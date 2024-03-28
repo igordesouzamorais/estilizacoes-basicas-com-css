@@ -1,0 +1,53 @@
+@import url('./global.css');
+
+code {
+    background-color: rgba(18, 111, 218, 0.5);
+}
+
+p.capitalize {
+    text-transform: capitalize;
+}
+
+p.uppercase {
+    text-transform: uppercase;
+}
+
+p.lowercase {
+    text-transform: lowercase;
+}
+
+p.align {
+    width: 500px;
+    border: solid 1px black;
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+}
+
+a.text-decoration {
+    text-decoration: none;
+}
+
+p.text-decoration {
+    color: blue;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+    text-decoration-thickness: 1px;
+
+    text-decoration: underline wavy red 5px;
+}
+
+p.text-ident {
+    text-indent: 10px;
+}
+
+p.letter-spacing {
+    letter-spacing: 5px;
+}
+
+p.word-spacing {
+    word-spacing: 10px;
+    text-align: justify;
+}

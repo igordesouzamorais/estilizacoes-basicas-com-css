@@ -1,0 +1,31 @@
+div {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+#exemplo {
+    background-color: aqua;
+    /*background-image: url('../img/1.avif');*/
+    background-image: linear-gradient(to bottom right, blue, lightblue);
+}
+
+#exemplo2 {
+    background-color: aqua;
+    background-image: radial-gradient(green, lightgreen);
+}
+
+#exemplo3 {
+    background-color: white;
+    background-image: repeating-linear-gradient(red 0 20px, crimson 20px 40px);
+}
+
+#exemplo4 {
+    background-color: silver;
+    background-image: linear-gradient(335deg, #b00 23px, transparent 23px),
+    linear-gradient(155deg, #d00 23px, transparent 23px),
+    linear-gradient(335deg, #b00 23px, transparent 23px),
+    linear-gradient(155deg, #d00 23px, transparent 23px);
+    background-size: 58px 58px;
+    background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+}

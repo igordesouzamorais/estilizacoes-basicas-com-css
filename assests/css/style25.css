@@ -1,0 +1,31 @@
+@import url('./global.css');
+
+.exemplo {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border: solid 5px purple;
+    padding: 10px;
+    overflow: visible;
+}
+
+#hidden {
+    overflow: hidden;
+}
+
+#scroll {
+    overflow: scroll;
+}
+
+#auto {
+    overflow: auto;
+}
+
+#x {
+    overflow-x: auto;
+}
+
+#y {
+    text-wrap: nowrap;
+    overflow-y: auto;
+}

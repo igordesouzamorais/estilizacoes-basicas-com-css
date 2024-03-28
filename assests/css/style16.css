@@ -1,0 +1,13 @@
+@import url('./global.css');
+
+code {
+    background-color: #18c71881;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#oblique {
+    font-style: oblique;
+}

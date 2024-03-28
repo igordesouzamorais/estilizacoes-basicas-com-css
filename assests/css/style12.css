@@ -1,0 +1,44 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+div[class^="exemplo"] {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.exemplo-1 {
+    background-color: crimson;
+
+    border-style: solid;
+    border-width: thick;
+}
+
+.exemplo-2 {
+    background-color: blue;
+
+    border-style: dashed solid;
+    border-width: 10px;
+}
+
+.exemplo-3 {
+    background-color: green;
+
+    border-style: dotted;
+    border-width: 10px;    
+    border-color: lightgreen darkgreen greenyellow goldenrod;
+}
+
+.exemplo-4 {
+    background-color: grey;
+
+    border: solid 10px rgba(198, 230, 21, 0.5);
+    border-bottom-style: hidden;
+    border-left-width: 5px;
+}
+
+.exemplo-5 {
+    background-color: blueviolet;
+    border-radius: 50px/100px;
+}

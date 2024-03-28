@@ -1,0 +1,28 @@
+div {
+    width: 300px;
+    height: 300px;
+}
+
+#exemplo {
+    background-color: blue;
+    background-image: url('../img/3.avif');
+    background-size: cover;
+}
+
+#exemplo2 {
+    background-color: blue;
+    background-image: url('../img/3.avif');
+    background-size: contain;
+}
+
+#exemplo3 {
+    background-color: blue;
+    background-image: url('../img/3.avif');
+    background-size: 50% 100%;
+}
+
+#exemplo4 {
+    background-color: blue;
+    background-image: url('../img/1.avif'), url('../img/3.avif');
+    background-size: contain, cover;
+}

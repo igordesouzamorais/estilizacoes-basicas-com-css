@@ -1,0 +1,31 @@
+@import url('./global.css');
+
+code {
+    background-color: #18c7186e;
+}
+
+#exemplo {
+    font-weight: 400;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+div {
+    font-weight: 600;
+}
+
+div p {
+    font-weight: lighter;
+    font-variant: small-caps;
+}
+
+#teste {
+    border: solid 1px red;
+    line-height: 4;
+}
+
+h1 {
+    font: italic small-caps bold 30px/3 Georgia, sans-serif;
+}

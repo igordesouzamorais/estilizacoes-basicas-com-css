@@ -1,0 +1,34 @@
+@import url('./global.css');
+
+.exemplo {
+    width: 140px;
+    height: 150px;
+    background-color: chartreuse;
+}
+
+.exemplo2 {
+    width: 200px;
+    background-color: chartreuse;
+    color: black;
+}
+
+#exemplo-01 {
+    writing-mode: horizontal-tb;
+}
+
+#exemplo-02 {
+    writing-mode: vertical-rl;
+}
+
+#exemplo-03 {
+    writing-mode: vertical-lr;
+}
+
+.exemplo2 p {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#exemplo-04 {
+    text-overflow: clip;
+}

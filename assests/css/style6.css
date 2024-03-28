@@ -1,0 +1,43 @@
+div {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    background-image: url('../img/3.avif');
+    background-size: 120px;
+}
+
+#exemplo {
+    background-color: blue;   
+    background-repeat: repeat;
+}
+
+
+#exemplo1 {
+    background-color: blue;   
+    background-repeat: repeat-x;
+}
+
+#exemplo2 {
+    background-color: blue;   
+    background-repeat: repeat-y;
+}
+
+#exemplo3 {
+    background-color: blue;   
+    background-repeat: space;
+}
+
+#exemplo4 {
+    background-color: blue;   
+    background-repeat: round;
+}
+
+#exemplo5 {
+    background-color: blue;   
+    background-repeat: no-repeat;
+}
+
+#exemplo6 {
+    background-color: blue;   
+    background-repeat: round space;
+}

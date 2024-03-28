@@ -1,0 +1,35 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.exemplo {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 30px solid;
+    margin: 50px auto;
+}
+
+#exemplo-1 {
+    border-image-source: url('../img/4.png'); /*none*/
+}
+
+#exemplo-2 {
+    border-image-source: linear-gradient(blue, rgb(13, 223, 108));
+    border-image-slice: 10;
+    border-image-outset: 50px;
+}
+
+
+#exemplo-3 {
+    border-image-source: url('../img/6.webp');
+    border-image-repeat: repeat;
+    border-image-slice: 165;
+    border-image-width: 30px;
+    border-image-outset: 30px;
+}
+
+#exemplo-4 {
+    border-image: url('../img/6.webp') 165 / 30px / 30px round; 
+    /*source slice / width / outset repeat*/
+}
